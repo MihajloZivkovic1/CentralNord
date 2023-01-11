@@ -608,11 +608,15 @@ section#products{
     .header_image{
         position: relative;
         top: 2rem;
-        left: 7.5rem;
+        left: 6.5rem;
+        margin-bottom: 4rem;
         
 
     }
-  
+    .header_right{
+        display: flex;
+        justify-content: space-between;
+    }
     .header_socials{
         position: absolute;
         z-index: 1;
@@ -624,8 +628,15 @@ section#products{
     /*services*/
      .services_card{
         grid-template-columns: 1fr;
-    }
+        
+        margin: 15px;
 
+
+    }
+    .services_cards{
+        display: block;
+        margin: 15px;
+    }
 
     /* .products-row{
         display: grid;
